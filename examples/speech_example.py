@@ -1,6 +1,7 @@
 import pyttsx
 
 speech = pyttsx.init()
+speech.setProperty('rate', 140)
 
 henry5_prologue = """O for a Muse of fire, that would ascend
 The brightest heaven of invention,
